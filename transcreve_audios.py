@@ -5,8 +5,8 @@ import subprocess
 import argparse
 
 # --- Configurações ---
-MODELO = "medium"  # Modelo Whisper a ser usado
-IDIOMA = "pt"     # Idioma do áudio ('None' para detecção automática)
+MODELO = "base"  # Modelo Whisper a ser usado
+IDIOMA = "de"     # Idioma do áudio ('None' para detecção automática)
 OUTPUT_FORMAT = "txt" # Formato de saída desejado
 
 # Formatos de áudio comuns a serem procurados (case-insensitive)
